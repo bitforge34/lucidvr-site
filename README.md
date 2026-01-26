@@ -8,7 +8,7 @@ The site exists solely to satisfy product, platform, and compliance requirements
 
 ## Contents
 
-- `index.html` — One-page landing site for LucidVR  
+- `index.html` — One-page landing site for LucidVR
 - `privacy.html` — Privacy policy covering Unity Analytics usage
 
 ---
@@ -27,5 +27,5 @@ This repository and its contents are **not licensed for reuse, redistribution, o
 
 All content is © BitForge.
 LucidVR is a product of Bitforge.
-  
+
 No permission is granted to copy, fork, or republish any part of this site.

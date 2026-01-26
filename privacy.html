@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy Policy — LucidVR</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="index.html" class="brand"
+          ><img src="assets/images/Header_Capsule_920x430.png" alt="LucidVR"
+        /></a>
+        <nav>
+          <a href="index.html">About</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </header>
+
+      <div class="card">
+        <h1>Privacy Policy</h1>
+        <p class="meta"><b>Effective date:</b> <span id="d"></span></p>
+
+        <p>
+          This Privacy Policy explains how <b>LucidVR</b> ("we", "us") handles
+          information when you use the app. Our telemetry is limited to
+          <b>Unity Analytics</b> for understanding app performance and usage.
+        </p>
+
+        <h2>What we collect (Unity Analytics)</h2>
+        <ul>
+          <li>
+            <b>Usage events</b> (e.g., feature interactions) that help us
+            understand what’s used and what’s not.
+          </li>
+          <li>
+            <b>Device / technical data</b> typically used for diagnostics (e.g.,
+            device model, OS version, app version, locale).
+          </li>
+          <li>
+            <b>Approximate session information</b> (e.g., session length,
+            stability/performance signals).
+          </li>
+        </ul>
+
+        <h2>What we do not collect</h2>
+        <ul>
+          <li>
+            No names, emails, phone numbers, or account credentials (unless you
+            separately provide them outside analytics).
+          </li>
+          <li>No precise GPS location.</li>
+          <li>No personal content from your videos.</li>
+        </ul>
+
+        <h2>How we use data</h2>
+        <ul>
+          <li>Improve features and UX.</li>
+          <li>Diagnose crashes and performance issues.</li>
+          <li>
+            Measure aggregate usage (not "tracking you" across unrelated apps).
+          </li>
+        </ul>
+
+        <h2>Sharing</h2>
+        <p>
+          Analytics data is processed by <b>Unity</b> as our service provider
+          for Unity Analytics. We do not sell personal data.
+        </p>
+
+        <h2>Your choices (opt-out)</h2>
+        <p>
+          If LucidVR provides an in-app toggle for "Usage Analytics", you can
+          disable analytics collection at any time. When disabled, the app
+          should stop sending Unity Analytics events.
+        </p>
+
+        <h2>Data retention</h2>
+        <p>
+          We retain analytics data only as long as needed for the purposes
+          above, subject to Unity’s retention settings and policies.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          LucidVR is not intended for children under the age required by your
+          jurisdiction to consent to data processing.
+        </p>
+
+        <h2>Changes</h2>
+        <p>
+          We may update this policy from time to time. We’ll revise the
+          effective date above when we do.
+        </p>
+      </div>
+      <footer>
+        <div>© <span id="y"></span> BitForge</div>
+        <div><a href="index.html">Home</a></div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+
+      const now = new Date();
+      const fmt = now.toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+      document.getElementById("d").textContent = fmt;
+    </script>
+  </body>
+</html>
