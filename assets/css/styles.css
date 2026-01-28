@@ -373,13 +373,13 @@ section {
 /* Floating Mini CTA */
 .floating-cta {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: 48px;
+  right: 48px;
   z-index: 1000;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 10px 20px 10px 10px;
+  gap: 15px;
+  padding: 13px 25px 13px 13px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(229, 234, 244, 0.1);
   border-radius: 12px;
@@ -423,7 +423,7 @@ section {
 }
 
 .floating-cta img {
-  width: 96px;
+  width: 128px;
   height: auto;
   border-radius: 6px;
   position: relative;
@@ -432,7 +432,7 @@ section {
 
 .floating-cta span {
   color: var(--text);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -806,8 +806,8 @@ footer a {
   }
 
   .floating-cta {
-    bottom: 16px;
-    right: 16px;
+    bottom: 32px;
+    right: 32px;
     padding: 8px 14px 8px 8px;
   }
 
@@ -816,11 +816,11 @@ footer a {
   }
 
   .floating-cta img {
-    width: 72px;
+    width: 96px;
   }
 
   .floating-cta span {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .roadmap-list li {
