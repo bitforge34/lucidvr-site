@@ -34,7 +34,7 @@ body::before {
   left: 0;
   right: 0;
   height: 512px;
-  background: url("../images/library_hero_3840x1240.png") top center / cover
+  background: url("../images/library_hero_3840x1240.jpg") top center / cover
     no-repeat;
   z-index: -2;
 }
